@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="coinbase icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+
+    <title>Coinbase/Sign In</title>
+    <link rel="stylesheet" href="coinbase.css">
+</head>
+<body>
+    <center>
+        <h2 class="c1">Sign in to Coinbase</h2>
+        <div class="card">
+            <input type="text" class="c2" placeholder="Email"><br>
+            <span class="eye" onclick="myFunction()"></span>
+            <input type="password" class="c2" id="myInput" placeholder="Password"><br>
+            <span class="c3"><input type="checkbox">Keep me signed in</span>
+            <span class="c4"><input class="c5" type="Submit" value="Sign in"></span>
+        </div>
+        <span><a class="c6" href="">Forgot password?</a></span><span><a class="c6" href="">Dont't have an account?</a></span><span class="c7"><a class="c6" href="">Privacy Policy</a></span><br><br>
+        <div><a class="c6" href="">Sign in to business account</a></div>
+    </center>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myInput");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+        </script>
+        
+</body>
+</html>
